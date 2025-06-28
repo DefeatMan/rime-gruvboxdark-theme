@@ -1,0 +1,9 @@
+patch:
+  style:
+    color_scheme: gruvboxdark
+    label_format: "%s."
+    display_tray_icon: false
+    font_point: 14
+    inline_preedit: true
+    # horizontal: false
+    layout: {margin_x: 8, margin_y: 8, hilite_padding: 8, hilite_spacing: 6, round_corner: 0  }
