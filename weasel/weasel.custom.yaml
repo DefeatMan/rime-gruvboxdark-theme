@@ -1,0 +1,34 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.17.4
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Mon Feb 23 00:50:14 2026"
+  rime_version: 1.13.1
+patch:
+  "speller/algebra":
+    - "erase/^xx$/"
+    - "derive/^([zcs])h/$1/"
+    - "derive/^([zcs])([^h])/$1h$2/"
+    - "derive/([aei])n$/$1ng/"
+    - "derive/([aei])ng$/$1n/"
+    - "derive/([iu])an$/$lan/"
+    - "derive/([iu])ang$/$lan/"
+    - "derive/([aeiou])ng$/$1gn/"
+    - "derive/([dtngkhrzcs])o(u|ng)$/$1o/"
+    - "derive/ong$/on/"
+    - "derive/ao$/oa/"
+    - "derive/([iu])a(o|ng?)$/a$1$2/"
+    - "abbrev/^([a-z]).+$/$1/"
+    - "abbrev/^([zcs]h).+$/$1/"
+  style:
+    color_scheme: gruvboxdark
+    display_tray_icon: false
+    font_point: 14
+    inline_preedit: true
+    label_format: "%s."
+    layout:
+      hilite_padding: 8
+      hilite_spacing: 6
+      round_corner: 4
+      corner_radius: 4
+      margin_x: 12
